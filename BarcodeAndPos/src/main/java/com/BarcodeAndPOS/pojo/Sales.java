@@ -10,7 +10,7 @@ public class Sales {
 	private Date salesDate;
 	private String contact;
 	private String client;
-	private int phone;
+	private String phone;
 	private String status;
 	private String managed;
 	
@@ -18,7 +18,7 @@ public class Sales {
 		
 	}
 	
-	public Sales(String salesRep,Date date,String contact,String client,int phone,String status,String managed){
+	public Sales(String salesRep,Date date,String contact,String client,String phone,String status,String managed){
 		this.salesRep = salesRep;
 		this.salesDate = date;
 		this.contact = contact;
@@ -61,12 +61,17 @@ public class Sales {
 	public void setClient(String client) {
 		this.client = client;
 	}
-	public int getPhone() {
+	
+	
+
+	public String getPhone() {
 		return phone;
 	}
-	public void setPhone(int phone) {
+
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+
 	public String getStatus() {
 		return status;
 	}

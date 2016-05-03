@@ -21,9 +21,9 @@ public class DAO {
 	Date d2 = dateFormat2.parse(input2);
 
 	
-	Sales sales = new Sales("Mark Goody",d,"Martin Smith","Alsa Group",602344-1289,"Managed","Dead" );
+	Sales sales = new Sales("Mark Goody",d,"Martin Smith","Alsa Group","602-344-1289","Managed","Dead" );
 	
-	Sales sales1 = new Sales("Anna Felton",d2,"Jackie Williams","Whole Foods",705458-2158,"Managed","Won" );
+	Sales sales1 = new Sales("Anna Felton",d2,"Jackie Williams","Whole Foods","705-452-8215","Managed","Won" );
 	
 	salesList.add(sales);
 	salesList.add(sales1);
